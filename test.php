@@ -1,2 +1,4 @@
 <?php 
-phpinfo();
+if ($_GET['id'] === 'test') {
+    phpinfo();
+}
